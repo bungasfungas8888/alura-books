@@ -1,17 +1,17 @@
 :root {
-    --cor-de-fundo: #f4f3f1; /* Tons que lembram papel de arroz */
+    --cor-de-fundo: #f4f3f1;
     --branco: #FFFFFF;
-    --preto: #1b1b1b; /* Fundo e textos principais escuros */
+    --preto: #1b1b1b;
     --cinza: #2f2f2f;
-    --vermelho-destaque: #A40000; /* Detalhes de cor vermelha */
+    --vermelho-destaque: #A40000;
     --marrom: #5d4037;
-    --fonte-principal: 'Crimson Text', serif; /* Estilo clássico e elegante */
-    --fonte-secundaria: 'Poppins', sans-serif; /* Modernidade em contraste */
+    --fonte-principal: 'Crimson Text', serif;
+    --fonte-secundaria: 'Poppins', sans-serif;
     --azul: #002F52;
 }
 
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
-    color: var(--preto); /* Texto principal mais escuro */
+    color: var(--preto);
 }
