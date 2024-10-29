@@ -1,95 +1,27 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+
 :root {
-    --cor-de-fundo: #f4f3f1; /* Tons que lembram papel de arroz */
+    --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
-    --preto: #1b1b1b; /* Fundo e textos principais escuros */
-    --cinza: #2f2f2f;
-    --vermelho-destaque: #A40000; /* Detalhes de cor vermelha */
-    --marrom: #5d4037;
-    --fonte-principal: 'Crimson Text', serif; /* Estilo clássico e elegante */
-    --fonte-secundaria: 'Poppins', sans-serif; /* Modernidade em contraste */
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
     --azul: #002F52;
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
 }
 
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
-    color: var(--preto); /* Texto principal mais escuro */
-}
-
-.cabeçalho {
-    background-color: var(--preto);
-    color: var(--branco);
-    border-bottom: 2px solid var(--vermelho-destaque);
-}
-
-.container__titulo {
-    font-family: var(--fonte-secundaria);
-    color: var(--branco);
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-
-.banner {
-    background-image: url('img/vagabond-background.jpg');
-    background-size: cover;
-    background-position: center;
-    color: var(--branco);
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.banner__titulo {
-    font-family: var(--fonte-principal);
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-}
-
-.banner__pesquisa {
-    border: 1px solid var(--branco);
-    padding: 10px;
-    width: 50%;
-    background-color: transparent;
-    color: var(--branco);
-}
-
-.carrossel__titulo {
-    font-family: var(--fonte-principal);
-    color: var(--vermelho-destaque);
-    font-size: 1.8em;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.swiper-slide img {
-    border: 2px solid var(--vermelho-destaque);
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-.swiper-slide img:hover {
-    transform: scale(1.05);
-}
-
-.rodapé {
-    background-color: var(--preto);
-    color: var(--branco);
-    padding: 30px 0;
-}
-
-.rodapé__titulo {
-    font-family: var(--fonte-principal);
-    color: var(--vermelho-destaque);
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.lista-rodapé__link {
-    color: var(--branco);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.lista-rodapé__link:hover {
-    color: var(--vermelho-destaque);
+    font-size: 16px;
+    font-weight: 400;
 }
